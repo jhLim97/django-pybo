@@ -28,7 +28,7 @@
 * jquery, bootstrap.min.js파일 적용.
 
 ### 7일차
-* 장고에서 제공하는 Paginator클래스를 이용해 페이징기능 적용\
+* 장고에서 제공하는 Paginator클래스를 이용해 페이징기능 적용
 * 장고 쉘을 이용해 대량 테스트 데이터 생성
 * @register.filter 어노테이션을 이용해 템플릿에서 해당 함수를 필터로 사용
 * 답변개수 표시 및 프로젝트 생성 시 settings.py에 자동으로 생성되는 django.contib.auth앱 이용 -> 관리의 용이성을 위해 가상환경에 [django-admin startapp common] 실행 후 common앱에 로그인/로그아웃 기능 구현.
