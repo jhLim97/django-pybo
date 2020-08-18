@@ -77,5 +77,13 @@ username|사용자이름|
 password1|비밀번호1|
 password2|비밀번호2|
 
+### 모델추가시 적용사항
+[python manage.py migrations], [python manage.py migrate] 순차적으로 수행
+
+### START!
+가상환경(프로젝트)에 python manage.py runserver구동 ->  http://127.0.0.1:8000/pybo
+
+
+
 
 
