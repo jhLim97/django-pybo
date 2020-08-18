@@ -30,4 +30,12 @@ admin, auth, contenttypes, sessions 등 앱들이 사용하는 테이블 생성�
 
 8일차
 -
-django.contib.auth앱 이용하여 "계정생성"구현, usercreationform속성 학습. 
+django.contib.auth앱 이용하여 "계정생성"구현, usercreationform속성 학습. Question, Answer모델에 author속성 추가. 로그인 필요한 함수에 @login_required 어노테이션 적용해 로그인 화면으로 이동구현. 로그인 성공 후 연결 url설정(next파라미터 사용), 로그인 전 답변작성 못하도록 disabled설정.
+
+9일차
+-
+글쓴이 표시, 수정과 삭제 구현(모델속성 변경), 댓글모델 추가. 질문 댓글 등록, 수정 및 삭제 구현. 가독성 및 관리위해 방대해진 views.py 분리.
+
+10일차
+-
+질문, 답변에 추천기능 추가(모델 수정). 원하는 지점으로 스크롤되도록 앵커(anchor태그 사용)설정, 원하는 조건으로 정렬 및 검색할 수 있도록 OR조건으로 데이터 조회에 사용되는 Q함수 적용 및 구현. 
