@@ -10,6 +10,10 @@
 
 5일차, 스타일시트 파일 저장을 위한 스태틱(이미지, js, css) 다이어리 구현 및 부트스트랩 학습 + 템플릿내의 동일한 내용 중복방지 및 스타일시트명 변경에 대비한 상속 템플릿 구현.
 
-6일차, 질문 등록 폼 추가(pybo/urls.py, views.py추가) 및 템플릿 적용, {{ form.as_p }}을 사용했을 경우의 디자인제약 벗어나기 위해 수동 폼 작성. + 답변 등록 폼(form.py)작성. 네비게이션 바 템플릿을 만들고 적용을 위해 전체 적용 템플릿(base.html)에 {% include "navbar.html" %} 적용 및 jquery, bootstrap.min.js파일 적용.
+6일차, 질문 등록 폼 추가 및 템플릿 적용, {{ form.as_p }}을 사용했을 경우의 디자인제약 벗어나기 위해 수동 폼 작성.답변 등록 폼(form.py)작성. 네비게이션 바 템플릿 추가 및 (base.html)에 {% include "navbar.html" %} 적용 및 jquery, bootstrap.min.js파일 적용.
 
 7일차, 장고에서 제공하는 Paginator클래스를 이용해 페이징기능 적용, 장고 쉘을 이용해 대량 테스트 데이터 생성. @register.filter 어노테이션을 이용해 템플릿에서 해당 함수를 필터로 사용. 답변개수 표시 및 프로젝트 생성 시 settings.py에 자동으로 생성되는 django.contib.auth앱 이용해 관리의 용이성을 위해 가상환경에 [django-admin startapp common] 실행 후 common앱에 로그인/로그아웃 기능 구현.
+
+8일차
+-
+django.contib.auth앱 이용하여 "계정생성"구현, usercreationform속성 학습. 
