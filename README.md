@@ -1,7 +1,8 @@
 # Django_pybo
 
 ### 1일차
-장고 프로젝트를 위한 가상환경 mysite구현 및 urls.py, view.py를 통한 chrome과 local sever의 연결.
+* 장고 프로젝트를 위한 가상환경 mysite구현 
+* urls.py, view.py를 통한 chrome과 local sever의 연결.
 
 ### 2일차
 admin, auth, contenttypes, sessions 등 앱들이 사용하는 테이블 생성을 위한 migrate 실행 및 DB Browser for SQLite 학습 + 모델 작성.
@@ -30,14 +31,14 @@ django.contib.auth앱 이용하여 "계정생성"구현, usercreationform속성 
 ### 10일차
 질문, 답변에 추천기능 추가(모델 수정->voter속성 추가). 원하는 지점으로 스크롤되도록 앵커(anchor태그 사용)설정, 원하는 조건으로 정렬 및 검색할 수 있도록 OR조건으로 데이터 조회에 사용되는 Q함수 적용 및 구현. 
 
-*장고 기능개발 패턴
+### 장고 기능개발 패턴
 1. 템플릿에 추가 기능을 위한 링크(버튼등)추가
 2. urls.py에 링크에 해당되는 URL 매핑을 작성
 3. forms.py에 폼 작성 (폼이 필요없는 경우에는 생략)
 4. views.py에 URL매핑에 의해 실행되는 함수 작성
 5. 함수에서 사용하는 템플릿 작성
 
-*Paginator관련속성
+### Paginator관련속성
 항목|설명
 ---|---|
 paginator.count|게시물의 전체건수|
@@ -51,7 +52,7 @@ has_next|다음페이지 존재여부|
 start_index|현재 페이지의 시작 인덱스 (1부터 시작하는 인덱스 기준)|
 end_index|현재 페이지의 끝 인덱스 (1부터 시작하는 인덱스 기준)|
 
-*UserCreationForm속성
+### UserCreationForm속성
 항목|설명
 ---|---|
 username|사용자이름|
