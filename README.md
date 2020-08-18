@@ -40,4 +40,15 @@ django.contib.auth앱 이용하여 "계정생성"구현, usercreationform속성 
 -
 질문, 답변에 추천기능 추가(모델 수정->voter속성 추가). 원하는 지점으로 스크롤되도록 앵커(anchor태그 사용)설정, 원하는 조건으로 정렬 및 검색할 수 있도록 OR조건으로 데이터 조회에 사용되는 Q함수 적용 및 구현. 
 
-=
+Paginator관련속성
+<항목설명>
+paginator.count|게시물의 전체건수
+paginator.per_page|페이지당 보여줄 건수
+paginator.page_range|페이지의 범위
+number|현재페이지 번호
+previous_page_number|이전페이지 번호
+next_page_number|다음페이지 번호
+has_previous|이전페이지 존재여부
+has_next|다음페이지 존재여부
+start_index|현재 페이지의 시작 인덱스 (1부터 시작하는 인덱스 기준)
+end_index|현재 페이지의 끝 인덱스 (1부터 시작하는 인덱스 기준)
