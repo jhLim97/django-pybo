@@ -42,13 +42,26 @@ django.contib.auth앱 이용하여 "계정생성"구현, usercreationform속성 
 
 Paginator관련속성
 <항목설명>
-paginator.count|게시물의 전체건수
-paginator.per_page|페이지당 보여줄 건수
-paginator.page_range|페이지의 범위
-number|현재페이지 번호
-previous_page_number|이전페이지 번호
-next_page_number|다음페이지 번호
-has_previous|이전페이지 존재여부
-has_next|다음페이지 존재여부
-start_index|현재 페이지의 시작 인덱스 (1부터 시작하는 인덱스 기준)
-end_index|현재 페이지의 끝 인덱스 (1부터 시작하는 인덱스 기준)
+paginator.count|게시물의 전체건수|
+paginator.per_page|페이지당 보여줄 건수|
+paginator.page_range|페이지의 범위|
+number|현재페이지 번호|
+previous_page_number|이전페이지 번호|
+next_page_number|다음페이지 번호|
+has_previous|이전페이지 존재여부|
+has_next|다음페이지 존재여부|
+start_index|현재 페이지의 시작 인덱스 (1부터 시작하는 인덱스 기준)|
+end_index|현재 페이지의 끝 인덱스 (1부터 시작하는 인덱스 기준)|
+
+이름|영어|정보|수학
+
+---|---|---|---|
+
+나동빈|98점|87점|100점|
+
+홍길동|97점|78점|93점|
+
+이순신|89점|93점|97점|
+
+
+
