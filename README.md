@@ -4,7 +4,7 @@
 ### Backend - python, DB Browser(SQLite), Django
 
 ### 1일차
-* 장고 프로젝트를 위한 가상환경 mysite구현 
+* 장고 프로젝트를 위한 가상환경 mysite 및 프로젝트구현 
 * urls.py, view.py를 통한 chrome과 local sever의 연결
 
 ### 2일차
